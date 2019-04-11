@@ -5,7 +5,10 @@ module.exports = {
   get,
 };
 
-function succeed(item, ench) {
+function succeed(item) {
+  if (item.enchantment <= 19) {
+    item.enchantment += 1
+  }
   return { ...item };
 }
 
