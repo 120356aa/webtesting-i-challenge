@@ -1,4 +1,4 @@
-const enhancer = require('./enhancer.js');
+const { secceed, fail, repair, get } = require('./enhancer.js');
 
 describe('enhancer', () => {
   const result = repair({ durability: 0 });
