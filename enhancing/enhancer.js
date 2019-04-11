@@ -5,7 +5,7 @@ module.exports = {
   get,
 };
 
-function succeed(item) {
+function succeed(item, ench) {
   return { ...item };
 }
 
@@ -14,6 +14,7 @@ function fail(item) {
 }
 
 function repair(item) {
+  item.durability = 100;
   return { ...item };
 }
 

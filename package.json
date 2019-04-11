@@ -1,0 +1,17 @@
+{
+  "name": "webtesting-i-challenge",
+  "version": "1.0.0",
+  "description": "Web Testing 1 challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "keywords": [
+    "lambda",
+    "testing"
+  ],
+  "author": "Lambda School",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
